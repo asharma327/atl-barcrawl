@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Darker Grotesque', sans-serif;
+  background-color: #ffbd39;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.liveMap{
+  margin-top: 50px;
+}
+
+.answers{
+  font-size: 125%;
+}
+
+.fullMap{
+  margin-top: 50px;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .logoText > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 200%;
+    color: #e4007c;
+  }
+
+  .logoText > h3{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 150%;
+    color: #090088;
+  }
+
+  .liveMap{
+    text-align: center;
+  }
+
+  .whereQuestion{
+    color: #e4007c;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .logoText > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 350%;
+    color: #e4007c;
+  }
+
+  .logoText > h3{
+    text-align: center;
+    margin-top: -30px;
+    font-size: 200%;
+    color: #090088;
+  }
+
+  .liveMap{
+    text-align: center;
+  }
+
+  .whereQuestion{
+    color: #e4007c;
+  }
+}
+
+.logoImage > img{
+  height: 100px;
+  width: 100px;
+}
+
+.app{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto;
+  grid-template-areas: "leftColumn middleColumn rightColumn";
+}
+
+.leftColumn{
+  grid-area: leftColumn;
+}
+
+.middleColumn{
+  grid-area: middleColumn;
+}
+
+.rightColumn{
+  grid-area: rightColumn;
+}
+
+
+.logoText{
+  margin: 0 auto;
 }
