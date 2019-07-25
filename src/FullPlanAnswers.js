@@ -4,7 +4,7 @@ class FullPlanAnswers extends Component {
     render() {
         return (
             <p className="answers">
-                <span className="fullPlanTime">{this.props.time}</span> - <span>{this.props.place}</span>, <span>{this.props.desc}</span>
+                <span className="fullPlanTime">{this.props.time}</span>   <span className="fullPlanPlace">{this.props.place}</span><br/> <span>{this.props.desc}</span>
             </p>
         )
     }

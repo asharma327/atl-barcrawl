@@ -101,3 +101,13 @@ body{
 .logoText{
   margin: 0 auto;
 }
+
+.fullPlanTime{
+  font-style: italic;
+}
+
+.fullPlanPlace{
+  font-weight: 900;
+  font-size: 125%;
+  padding-left: 10px;
+}

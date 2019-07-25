@@ -16,6 +16,9 @@ class FAQs extends Component {
                 <h1 className="whereQuestion">How will I know where y'all are at?</h1>
                 <p className="answers">Look at the live location tracker. Text me if very necessary</p>
                 <br/>
+                <h1 className="whereQuestion">Can I invite others to join?</h1>
+                <p className="answers">Of course, but they have to be cool tho, very cool</p>
+                <br/>
                 <h1 className="whereQuestion">Do I need to bring anything?</h1>
                 <p className="answers">Nah, just wear a pair of comfortable walking shoes</p>
                 <br/>
