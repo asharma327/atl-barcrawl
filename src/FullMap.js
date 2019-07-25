@@ -2,10 +2,6 @@ import React, {Component} from 'react'
 import FullPlanAnswers from "./FullPlanAnswers";
 
 class FullMap extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="fullMap">
