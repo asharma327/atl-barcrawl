@@ -37,6 +37,11 @@ body{
   .whereQuestion{
     color: #e4007c;
   }
+
+  .fullMapMap{
+    width: 320px;
+    height: 240px;
+  }
 }
 
 @media only screen and (min-width: 600px){
@@ -60,6 +65,11 @@ body{
 
   .whereQuestion{
     color: #e4007c;
+  }
+
+  .fullMapMap{
+    width: 640px;
+    height: 480px;
   }
 }
 

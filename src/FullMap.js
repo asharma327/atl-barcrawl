@@ -75,7 +75,7 @@ class FullMap extends Component {
                     place="Edgewood Ave"
                     desc="Ya'll already know what's good with this"
                 />
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1l66bIKjFQ5e4Buv4XIXUB5M0wIjgrdNE" width="640" height="480" title="Google Map Full" />
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1l66bIKjFQ5e4Buv4XIXUB5M0wIjgrdNE" className="fullMapMap"  title="Google Map Full" />
             </div>
         )
     }
